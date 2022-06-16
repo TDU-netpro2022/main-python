@@ -1,10 +1,9 @@
 import requests
 # import main
 
-
 url = 'https://httpbin.org'
 
-def put_data():
+def post_data():
     path = 'post'
     data = {  # リクエストボディ
         'username': 'netpro tarou',
